@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600&family=Gentium+Plus:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Acme', sans-serif;
+            font-family: 'Caveat', cursive;
+            font-family: 'Gentium Plus', serif;  
+        }
+        body{
+            padding: 15px;
+            background-color: rgb(226, 223, 223);
+        }
+        .card{
+            width: 199px;
+            box-shadow: 5px 5px 10px;
+            border-radius: 10px;
+            display: inline-block;
+            overflow: hidden;
+            margin-right: 20px;
+            vertical-align: top;
+            background-color: aliceblue;
+        }
+        .cardbg1{
+            background-image: url("img/Beautiful_flowers_3.JPG");
+
+        }
+        .cardbg2{
+            background-image: url("img/texture1.jpg");
+        }
+        .cardbg3{
+            background-image: url("img/texture2.jpg");
+            
+        }
+
+        .card-body{
+            padding: 15px;
+            font-weight: bolder;
+        }
+        .card-title{
+            margin-top: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .card-paragraph{
+           margin-bottom: 0;
+           color: #767676; 
+        }
+        .card-img{
+            width: 100%;
+            height: 150%;
+            display: block;
+        }
+        .card-imgf{
+            width: 100%;
+            height: 80%;
+        }
+        .buttom{
+            font-weight: bold;
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-top: -30px;
+            position: relative;
+            margin-right: 10px;
+            
+        }
+        .buttom:hover{
+            background-color: rgb(226, 226, 115);
+            border-color: rgb(226, 226, 115);
+        }
+        .see-more{
+            font-weight: bold;
+            background-color: #005695;
+            font-size: medium;
+            margin-top: 10px;
+            margin-left: 96px;
+            margin-bottom: -20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card cardbg3">
+        <div class="card-body">
+            <p class="card-title">Min Ga Lar Par</p>
+            <p class="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur cupiditate laborum impedit at provident totam, nemo iste ducimus obcaecati quos in nihil voluptas corporis! Praesentium illum aspernatur ex officia.
+            </p>
+        </div>
+    </div>
+    
+    <div class="card cardbg1">
+        <div class="card-body">
+            <p class="card-title">Min Ga Lar Par</p>
+            <p class="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur cupiditate laborum impedit at provident totam, nemo iste ducimus obcaecati quos in nihil voluptas corporis! Praesentium illum aspernatur ex officia.
+            </p>
+        </div>
+    </div>
+    
+    <div class="card cardbg2">
+       
+        <div class="card-body">
+            <p class="card-title">Min Ga Lar Par</p>
+            <p class="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur cupiditate laborum impedit at provident totam, nemo iste ducimus obcaecati quos in nihil voluptas corporis! Praesentium illum aspernatur ex officia.
+            </p>
+            <button class="see-more">see more</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card">
+        <img src="./img/f.jpg" class="card-imgf" alt="">
+        <div class="card-body">
+            <p class="card-title">flower with sky</p>
+            <p class="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur cupiditate laborum impedit at provident totam, nemo iste ducimus obcaecati quos in nihil voluptas corporis! Praesentium illum aspernatur ex officia.
+            </p>
+        </div>
+    </div>
+   
+    <div class="card">
+        <img src="./img/lotus.jpg" class="card-img" alt="">
+        <button class="buttom">shop now</button>
+        <div class="card-body">
+            <p class="card-title">flower shop</p>
+            <p class="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur cupiditate laborum impedit at provident totam, nemo iste ducimus obcaecati quos in nihil voluptas corporis! Praesentium illum aspernatur ex officia.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

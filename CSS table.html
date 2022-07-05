@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Gentium+Plus:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    
+      <style>
+    
+            *{
+                font-family: 'Acme', sans-serif;
+                font-family: 'Gentium Plus', serif;
+                font-size: large;
+            }
+    
+    
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            
+        }
+        tr{
+            border-bottom: 1px solid black;
+        }
+        th,td{
+           padding: 10px 15px;
+           
+        }
+        .title{
+            color: rgb(6, 238, 238);
+        }
+        .title span{
+            color: rgb(7, 216, 216);
+        }
+        thead{
+            background-color: aquamarine;
+        }
+        tbody tr:hover{
+            background-color: lightgray;
+        }
+        thead th{
+            text-align: left;
+        }
+        tbody tr td:first-child{
+            background-color: aquamarine;
+            
+        }
+        tfoot td:first-child{
+            background-color: aquamarine;
+            
+        }
+        .total{
+            text-align: center;
+            font-size:large !important ;
+            font-weight: bold;
+        }
+       
+    </style>
+</head>
+<body>
+    <h4 class="title">Table <span> CSS</span></Table></h4>
+    <table>
+        <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                Course
+            </th>
+            <th>
+                Fee
+            </th>
+            <th>
+                Discount
+            </th>
+            <th>
+                Cost
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                1
+            </td>
+            <td class="test-align">
+                BWD
+            </td>
+            <td class="test-align">
+                20000
+            </td>
+            <td class="test-align">
+                100%
+            </td>
+            <td class="test-align">
+                0
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td class="test-align">
+                SWD
+            </td>
+            <td class="test-align">
+                100000
+            </td>
+            <td class="test-align">
+                80%
+            </td>
+            <td class="test-align">
+                20000
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td class="test-align">
+                Web Dev
+            </td class="test-align">
+            <td class="test-align">
+                100000
+            </td>
+            <td class="test-align">
+                50%
+            </td>
+            <td class="test-align">
+                50000
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                4
+            </td>
+            <td class="test-align">
+                Laravel
+            </td>
+            <td class="test-align">
+                100000
+            </td>
+            <td class="test-align">
+                50%
+            </td>
+            <td class="test-align">
+                50000
+            </td>
+            
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td class="total" colspan="4">
+                Total
+            </td>
+            <td class="test-align">
+                120000
+            </td>
+           
+        </tr>
+    </tfoot>
+    </table>
+    
+</body>
+</html>

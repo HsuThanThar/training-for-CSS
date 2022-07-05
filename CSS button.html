@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Gentium+Plus:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+  <style>
+
+        *{
+            font-family: 'Acme', sans-serif;
+            font-family: 'Gentium Plus', serif;
+            font-size: large;
+        }
+        .btn{
+            background-color: #673ab7;
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            border: 2px solid  #673ab7; 
+            display: inline-block;
+            border-radius: 9px;
+            transition: 0.5s;
+        }
+        .btn:active{
+            background-color: #6125a5;
+            color: antiquewhite;
+            border-color:#6125a5; 
+        }
+        .btn-secondary{
+            background-color: #2886ac;
+            color: black;
+            border: 2px solid  #2886ac ;      
+        }
+        .btn-secondary:active{
+            background-color: #1d6581 ;
+            color: antiquewhite;
+            border-color: #1d6581 ;
+        }
+        .btn-dark{
+            background-color: black;
+            color: white;
+            border: 2px solid  black;   
+             
+        }
+        .btn-dark:active{
+            background-color:rgb(70, 66, 66);
+            color: antiquewhite;
+            border-color:rgb(70, 66, 66);
+        }
+        .btn-outline{
+            background-color: whitesmoke;
+            color: black; 
+            border: 2px solid  black; 
+        }
+        .btn-outline:hover{
+            background-color:rgb(70, 66, 66);
+            color: antiquewhite;
+            border-color:rgb(70, 66, 66);
+        }
+    </style>
+
+</head>
+<body>
+    <a class="btn" href="#">A button</a><hr>
+    <button class="btn">B button</button><hr>
+    <button class="btn btn-secondary">BB button</button><hr>
+    <button class="btn btn-dark">dark button</button><hr>
+    <button class="btn btn-outline">outline button</button>
+</html>

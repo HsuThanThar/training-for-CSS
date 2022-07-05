@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meidia queries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600&family=Gentium+Plus:ital,wght@1,400;1,700&family=Vazirmatn:wght@300;400;600&display=swap" rel="stylesheet">
+        <style>
+        *{
+            font-family: 'Acme', sans-serif;
+            font-family: 'Caveat', cursive;
+            font-family: 'Gentium Plus', serif;
+            font-family: 'Vazirmatn', sans-serif;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        p{
+            border: 1px solid black;
+            padding: 20px;
+            display: inline-block;
+            width: 30%;
+        }
+        @media screen and (max-width:1024px) {
+            body{
+            background-color: pink;
+            } 
+            p{
+                width: 40%;
+            }
+            P:last-child{
+                width: 80%;
+            }
+            
+        }
+
+        @media screen and (max-width:480px) {
+            body{
+            background-color: orange ;
+            } 
+            p{
+                width: 100% !important;
+            }
+        }
+       
+        
+    </style>
+</head>
+<body>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ex at accusamus porro nihil blanditiis aspernatur? Itaque voluptatum vel, dicta aliquid cupiditate, est rerum inventore, officiis quisquam nostrum esse dignissimos!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ex at accusamus porro nihil blanditiis aspernatur? Itaque voluptatum vel, dicta aliquid cupiditate, est rerum inventore, officiis quisquam nostrum esse dignissimos!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ex at accusamus porro nihil blanditiis aspernatur? Itaque voluptatum vel, dicta aliquid cupiditate, est rerum inventore, officiis quisquam nostrum esse dignissimos!</p>
+</body>
+</html>

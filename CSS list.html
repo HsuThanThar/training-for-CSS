@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <style>
+        .listo{
+            list-style-type: square;
+        }
+        .listt{
+            border: 1px solid black;
+        }
+        .listth{
+            padding: 5px;
+            width: 200px;
+            border: 1px solid black;
+            list-style-type: none;
+        }
+        .listth li{
+             border: 1px  solid black;
+             text-align: center;
+             padding: 10px 15px;
+             margin-bottom: 5px;
+                    
+        }
+        .listth li:last-child{
+            margin-bottom: 0px;
+        }
+
+
+        .listf{
+            padding: 5px;
+            text-align: right;
+            border: 1px solid black;
+            list-style-type: none; 
+        }
+        .listf li{
+             border: 1px  solid black;
+             
+             padding: 10px 15px;
+             
+             
+             display: inline-block;
+                    
+        }
+        .listf li:last-child{
+            margin-bottom: 0px;
+
+        }
+        .listf li:hover,.listf li.active{
+            background-color: grey;
+            color: aliceblue;
+            transition: 0.3s;
+
+        }
+        .listfive{
+            padding: 0px;
+            list-style-type: none;
+        }
+        .listfive li{
+            background-color: lightgrey;
+            color: rgb(167 61 61);
+            padding: 10px 15px;
+            margin-bottom: 5px;
+            width: 200px;
+            border-left: 2px solid black;
+            box-sizing: border-box;
+        }
+        .listfive li:hover{
+            border-left: 5px solid black;
+            transition: 0.3s;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <ul class="listo">
+        <li>apple</li>
+        <li>orange</li>
+        <li>mango</li>
+        <li>banana</li>
+        <li>strawberry</li>
+    </ul>
+    <ul class="listt">
+        <li>apple</li>
+        <li>orange</li>
+        <li>mango</li>
+        <li>banana</li>
+        <li>strawberry</li>
+    </ul>
+    <ul class="listth">
+        <li>apple</li>
+        <li>orange</li>
+        <li>mango</li>
+        <li>banana</li>
+        <li>strawberry</li>
+    </ul>
+    <ul class="listf">
+        <li class="active">apple</li>
+        <li>orange</li>
+        <li class="active">mango</li>
+        <li>banana</li>
+        <li>strawberry</li>
+    </ul>
+    <ul class="listfive">
+        <li>apple</li>
+        <li>orange</li>
+        <li>mango</li>
+        <li class="active">banana</li>
+        <li>strawberry</li>
+    </ul>
+    </body>
+</html>

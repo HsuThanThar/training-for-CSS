@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .m-3{
+            margin: 30px;
+        }
+        .p-3{
+            padding: 30px;
+        }
+        .border{
+            border: 1px solid black;
+        }
+        .w-300{
+            width: 300px;
+        }
+        .big-one{
+            background-color: skyblue;
+        }
+        .big-two{
+            background-color: pink;
+            align-self:  center;
+            
+        }
+        .big-three{
+            background-color: orangered;
+            align-self:  flex-end;
+        }
+        .big-four{
+            background-color: cornflowerblue;
+        }
+        .big-five{
+            background-color: darkcyan;
+        }
+        .box{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            height: 500px;
+            align-items: flex-start;
+            
+            align-content: space-around;
+        }
+    </style>
+</head>
+<body>
+     
+    <div class="box border m-3" style="display: flex; "  >
+        <div class="w-300 big-one">
+            <h4>This is One  </h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At omnis esse sunt repellat dolor doloribus consequuntur! Quidem tempore quae earum. Dolore maxime nemo eum aut magni odit similique sit officiis.</p>
+        </div>
+        <div class="w-300 big-two">
+            <h4>This is Two</h4>
+            <p>Omnis officia nam similique sint aut deleniti molestias beatae, quis doloribus! Animi dicta beatae facere id quasi rem. Non, ipsum corporis. Quod blanditiis suscipit modi, quasi accusamus mollitia ipsum porro.</p>
+        </div>
+        <div class="w-300 big-three">
+            <h4>This is Three</h4>
+            <p>Pariatur maxime cum accusantium quas rerum, repellendus quae veniam facere praesentium eaque libero quos. Dolorum, facilis sequi. Obcaecati, dicta expedita, minima repellat consequatur, totam qui tempora impedit hic eligendi excepturi!</p>
+        </div>
+       
+    </div>
+
+
+</body>
+</html>
