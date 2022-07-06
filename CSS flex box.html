@@ -50,10 +50,36 @@
             
             align-content: space-around;
         }
+         .flex-container{
+            width: 500px;
+            display: flex;
+            background-color: aqua;
+            justify-content: flex-end;
+        }
+        .flex-container>div{
+            margin: 15px;
+            padding: 20px;
+            background-color: aliceblue;
+            font-size: 2.5em;
+
+        }
+        
+   
     </style>
 </head>
 <body>
-     
+    
+     <h1>Creat a Flex Container</h1>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    
     <div class="box border m-3" style="display: flex; "  >
         <div class="w-300 big-one">
             <h4>This is One  </h4>
