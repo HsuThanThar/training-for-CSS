@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+       
+       .img1{
+           opacity: 0.5;
+           height: auto;
+           width: 100%;
+           margin-top: 90px;
+          
+
+       }
+       .container{
+          position: relative;
+       }
+       .t{
+          position: absolute;
+          top: 120px;
+          font-size: 30px; 
+                
+       }
+       .tl{
+         left: 16px;
+       }
+       .tr{
+           right: 16px;
+           
+       }
+       .b{
+           position: absolute;
+           bottom: 48px;
+           font-size: 30px;
+       }
+       .bl{
+           left: 16px;
+       }
+       .br{
+           right: 16px;
+       }
+       .center{
+           top: 50%;
+           left: 50%;
+           font-size: 30px;
+           position: absolute;
+       }
+       .fixed{
+           position: fixed;
+           border: 1px solid black;
+           padding: 0 5px;
+           background-color: lightgrey;
+          
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="fixed"><h2 >This is position testing</h2></div>
+        
+        <img class="img1"  src="./img/texture2.jpg" alt="" width="700" height="100">
+        <div class="t tl">Top Left</div>
+        <div class="t tr">Top Right</div>
+        <div class="b bl">Buttom Left</div>
+        <div class="b br">Buttom Right</div>
+        <div class="center">Center</div>
+    </div>
+    
+</body>
+</html>
